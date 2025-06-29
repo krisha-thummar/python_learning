@@ -19,7 +19,7 @@ This repo is a daily record of my Python practice and progress as I learn the la
 |      | Conditional Statements             |             |                               |
 | Day 3| logical, comparison operators     | ✅ Done       | Grading system practice     |
 | Day 4| Loop (`while`)                    | ✅ Done       | car game, Number guessing game |
-| Day 5| Lists and Tuples                  | ⏳ In Progress | To-do list app              |
+| Day 5| 'for' loop, Nested loop           | ✅ Done       |             |
 | Day 6| Dictionaries and Sets             | ⬜ Not Started | Student database project    |
 | Day 7| Functions + File Handling         | ⬜ Not Started | Read/write `.txt` files     |
 
