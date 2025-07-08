@@ -11,7 +11,6 @@ def basic_calc():
     print("4. Divide")
     print("5. Get last result")
     print("6. Show all operations")
-    print("7. View history")
     print("0. Exit")
 
 
