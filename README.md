@@ -18,6 +18,7 @@ This repo tracks my day-by-day progress as I learn Python — from the basics to
 | Day 7 | Functions                                           | ✅ Done |
 | Day 8 | Password Checker, Vowel Counter, Loop Practice      | ✅ Done |
 | Day 9 | Expense Tracker, Matrix, Triangle Pattern           | ✅ Done |
+| Day 10| Function(parameters, arguments), exception handling | ✅ Done |
 
 ---
 
@@ -41,14 +42,6 @@ Each folder contains practice scripts and mini-projects based on the topic of th
 - Language: Python 3.x  
 - Editor: PyCharm / VS Code  
 - OS: Windows
-
----
-
-## ✨ What's Next?
-
-- Day 10: File handling, exception handling  
-- Day 11: Classes and OOP basics  
-- Day 12: More real-world projects... stay tuned!
 
 ---
 
