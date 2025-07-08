@@ -1,3 +1,5 @@
+import math
+
 print("Welcome to the OOP Calculators!")
 
 print("Choose calculator type: ")
@@ -100,10 +102,9 @@ elif choice == "2":
             print(f"Result: {num1} % {num2} = {total} ")
         elif choice == "7":
             print("You have selected Square root")
-            num1 = int(input("Enter the first number: "))
-            num2 = int(input("Enter the second number: "))
-            total = num1 ** num2
-            print(f"Result: {num1} ** {num2} = {total} ")
+            num1 = int(input("Enter number: ")
+            total = math.sqrt(num1)
+            print(f"Result: sqrt({num1})  = {total} ")
         elif choice == "0":
             print("Thank you for using the calculator")
             break
