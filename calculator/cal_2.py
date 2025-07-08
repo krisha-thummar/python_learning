@@ -39,11 +39,14 @@ if choice == "1":
             total = num1 * num2
             print(f"Result: {num1} * {num2} = {total} ")
         elif choice == "4":
-            print("You have selected Division")
-            num1 = int(input("Enter the first number: "))
-            num2 = int(input("Enter the second number: "))
-            total = num1 / num2
-            print(f"Result: {num1} / {num2} = {total} ")
+          try:
+             print("You have selected Division")
+             num1 = int(input("Enter the first number: "))
+             num2 = int(input("Enter the second number: "))
+             total = num1 / num2
+             print(f"Result: {num1} / {num2} = {total} ")
+          except ZeroDivisionError:
+             print("Error: Division by zero")
         elif choice == "0":
             print("Thank you for using the calculator")
             break
@@ -83,11 +86,14 @@ elif choice == "2":
             total = num1 * num2
             print(f"Result: {num1} * {num2} = {total} ")
         elif choice == "4":
-            print("You have selected Division")
-            num1 = int(input("Enter the first number: "))
-            num2 = int(input("Enter the second number: "))
-            total = num1 / num2
-            print(f"Result: {num1} / {num2} = {total} ")
+          try:
+             print("You have selected Division")
+             num1 = int(input("Enter the first number: "))
+             num2 = int(input("Enter the second number: "))
+             total = num1 / num2
+             print(f"Result: {num1} / {num2} = {total} ")
+          except ZeroDivisionError:
+             print("Error: Division by zero")
         elif choice == "5":
             print("You have selected Power")
             num1 = int(input("Enter the first number: "))
